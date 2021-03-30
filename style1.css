@@ -1,0 +1,31 @@
+
+  h1{
+    text-align:center;
+    border-bottom:3px solid black;
+    margin-bottom: 0;
+
+  }
+  p{
+    font-size: 20px;
+  }
+  #grid {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+
+
+
+  }
+  #grid ol{
+    border-right: 3px solid black;
+    padding-left: 15px;
+    margin-top: 0;
+  }
+  #grid1 ol{
+    border-right: none;
+  }
+  #active{
+    padding-left: 10px;
+  }
+  #active h2{
+    margin-top: 0;
+  }
